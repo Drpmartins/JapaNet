@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function payWithPaystack() {
     let handler = PaystackPop.setup({
-      key: 'pk_test_7efd08212e5c9946fea1aaed6e5c879e5821ffd7', // Replace with your public key
+      key: '{YOUR_PUBLIC/LIVE_API_KEY}', // Replace with your public key/live key from paystack
       email: document.getElementById("email-address").value,
       amount: document.getElementById("amount").value * 100,
-      currency: 'GHS',
+      currency: 'GHS', // Supported CURRENCIES GHS, NGN
       ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
       // label: "Optional string that replaces customer email"
       onClose: function(){
