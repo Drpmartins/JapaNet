@@ -1,5 +1,5 @@
 # JapaNet E-commerce Platform
-
+![JapaNet Logo](app/static/logo.png)
 
 ## Table of Contents
 
