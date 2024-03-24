@@ -11,7 +11,7 @@
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [Known Issues](#known-issues)
-  - [ Related Projects](#related-projects)
+  - [Related Projects](#related-projects)
   - [License](#license)
   - [Contact](#contact)
 
@@ -122,7 +122,7 @@ For more information on installing dependencies and resolving these issues, plea
 
 ## Examples and Demos
 
-- [JapaNet Demo](https://github.com/your-username/japanet-demo) - Explore a demo version of JapaNet to see its features in action.
+- [JapaNet Demo](https://youtu.be/Ppjgf1jstQw?si=OesSm8_ch0JKdyxs) - Explore a demo version of JapaNet to see its features in action.
 
 ## Walkthrough
 
@@ -241,11 +241,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any inquiries or feedback regarding JapaNet, please contact our team:
 
 - **GitHub Repositories:** 
-[Izuchukwu Peter Abonyi](https://github.com/Drpmartins/) 
+[Izuchukwu Peter Abonyi](https://github.com/Drpmartins/) and 
 [Bernard Amegah](https://github.com/brwngld/)
 - **Twitter:** 
-[Izuchukwu Peter Abonyi](https://twitter.com/dr_coded)
+[Izuchukwu Peter Abonyi](https://twitter.com/dr_coded) and 
 [Bernard Amegah](https://twitter.com/bern587)
 - **LinkedIn:**
-[Izuchukwu Peter Abonyi](https://www.linkedin.com/in/izuchukwu-peter-abonyi-446b95278/)
+[Izuchukwu Peter Abonyi](https://www.linkedin.com/in/izuchukwu-peter-abonyi-446b95278/) and 
 [Bernard Amegah](https://www.linkedin.com/in/bernard-amegah-6191222ba/)
