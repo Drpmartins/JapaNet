@@ -1,5 +1,5 @@
 # JapaNet E-commerce Platform
-![JapaNet Logo](app/static/logo.png)
+![JapaNet Logo](walkthrough/logo.png)
 
 ## Table of Contents
 
@@ -17,34 +17,71 @@
 
 ## About
 
-JapaNet is a simple e-commerce web application built with Flask designed to serve both local and international markets, with a primary focus on promoting local businesses. Our platform offers a wide range of products sourced from local vendors, providing customers with access to unique and high-quality goods while supporting local economies.
+JapaNet is a simple yet powerful e-commerce web application built with Flask. It aims to provide a platform for local businesses to showcase and sell their products online, catering to both local and international customers. Our mission is to promote local entrepreneurship while offering customers access to unique and high-quality goods.
 
 ## Features
 
-- **Local and International Markets:** JapaNet caters to both local customers looking for locally-made products and international customers interested in unique items from different regions.
-- **Promotion of Local Businesses:** Our platform prioritizes local vendors, helping them reach a wider audience and grow their businesses.
-- **Secure Payment Processing:** We ensure secure transactions through encrypted payment gateways, providing customers with peace of mind when making purchases.
-- **User-Friendly Interface:** Our intuitive interface makes it easy for customers to browse products, place orders, and track shipments with ease.
+- **Market Diversity:** JapaNet serves both local customers seeking locally-made products and international customers interested in unique items from different regions.
+- **Local Business Promotion:** We prioritize local vendors, helping them expand their reach and grow their businesses.
+- **Secure Transactions:** Our platform ensures secure payment processing through encrypted payment gateways, ensuring customer data safety.
+- **User-Friendly Interface:** With an intuitive interface, customers can easily browse products, place orders, and track shipments hassle-free.
 
 
 ## Installation
 
 To install JapaNet locally, follow these steps:
 
-1. Make a fork of the repository: `Fork the JapaNet repository to your GitHub organization. This means that you'll have a copy of the ropository unuder your-GitHub-username/repository-name.`
-2. Clone the repository: `git clone https://github.com/{your-Github-username}/JapaNet.git`
-3. Navigate to the project directory: `cd JapaNet`
-4. Install dependencies: `pip install -r requirements.txt`
-5. Configure environment variables as needed.
-6. Run the application: `python app.py`
+1. **Fork the Repository**: Fork the JapaNet repository to your GitHub organization. This creates a copy of the repository under your GitHub username. You can fork the repository by clicking the "Fork" button on the GitHub page.
+
+2. **Clone the Repository**: Clone the forked repository to your local machine:
+
+    ```bash
+    git clone https://github.com/{your-Github-username}/JapaNet.git
+    ```
+
+3. **Navigate to the Project Directory**:
+
+    ```bash
+    cd JapaNet
+    ```
+
+4. **Create and Activate Virtual Environment (Optional)**: 
+    For creating a virtual environment named "myenv" and activating it:
+
+    ```bash
+    python -m venv myenv  # Create virtual environment
+    ```
+
+    On Unix or MacOS:
+    ```bash
+    source myenv/bin/activate
+    ```
+
+    On Windows:
+    ```bash
+    .\myenv\Scripts\activate
+    ```
+
+5. **Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+6. **Configure Environment Variables**: If needed, configure any environment variables required by the application.
+
+7. **Run the Application**:
+    ```bash
+    python app.py
+    ```
 
 ## Usage
 
-Once installed, you can access JapaNet through your web browser. Simply navigate to the provided URL and start exploring the products available on the platform. Customers can search for specific items, view product details, add items to their cart, and proceed to checkout securely.
+After installation, users can access JapaNet through their web browsers. They can browse products, place orders, and track shipments with ease.
+
 
 ## Contributing
 
-We welcome contributions from the community to help improve JapaNet. If you'd like to contribute, please follow these guidelines:
+We welcome contributions from the community to enhance JapaNet. To contribute, follow these steps:
 
 1. Fork the repository and create a new branch.
 2. Make your changes and ensure they adhere to the project's coding standards.
@@ -82,23 +119,120 @@ For more information on installing dependencies and resolving these issues, plea
 - [Bootstrap](https://github.com/twbs/bootstrap) - Front-end framework for building responsive and mobile-first websites.
 - [pdfkit](https://github.com/JazzCore/python-pdfkit) - Python wrapper for the wkhtmltopdf tool to convert HTML to PDF.
 
-## Contributors' Projects
-
-- [Contributor's Portfolio Website](https://github.com/contributor-username/portfolio) - Check out the portfolio of one of our contributors who helped improve JapaNet.
 
 ## Examples and Demos
 
 - [JapaNet Demo](https://github.com/your-username/japanet-demo) - Explore a demo version of JapaNet to see its features in action.
 
-## Images
+## Walkthrough
 
-![Home Page](images/home_page.png)
+## Admin Page
+- Registration Page for Admin
+---
+![Registration](walkthrough/adminreg.png)
+---
+- Login Page for Admin
+---
+![Login](walkthrough/adminlog.png)
+---
+- Admin Dashboard
+---
+![Dashboard](walkthrough/admindash.png)
+---
+- Add Product: 
+1. Click on Products.
+2. Click on Add Product.
+3. Enter the details and attach image.
+4. Click on Add Product to add to database.
+---
+![Addpro](walkthrough/addpro.png)
+---
+![AddProduct](walkthrough/addpro1.png)
+---
+- Update the details of the Products including the images:
+1. Click on edit.
+2. Make the neccessary corrections.
+3. Click on update product to update the product in the database.
+---
+![Edit](walkthrough/update.png)
+---
+![Update_Product](walkthrough/update1.png)
+---
+## Customer Page
+- Customer Registration page
+---
+![Customer_Registration](walkthrough/custreg.png)
+---
+![Customer_Login](walkthrough/userlogin.png)
+---
+- Customer Homepage
+---
+![Homepage](walkthrough/customerhome.png)
+---
+- Customer Search
+---
+1. The custemer can search by brand, description or price. (The price is not optimized)
+---
+![Description](walkthrough/search.png)
+---
+![Brand](walkthrough/search1.png)
+---
+![Price](walkthrough/search2.png)
+---
 
-![Product Listing](images/product_listing.png)
+- Details of items
+1. Click on details button on the homepage
+![Details button](walkthrough/customerhome.png)
+![Details](walkthrough/Details.png)
+---
+- Stock Availability
+1. When the stock reaches 0 in the Admin's database, Out of stock button is displayed instead 
+---
+![Admin_Stock](walkthrough/stock1.png)
+![Out_of_stock](walkthrough/stock.png)
+---
+- Cart not in session/Empty
+![Empty_cart](walkthrough/customercartempty.png)
+---
+- Add to cart
+1. You can add to cart from the homepage
+2. You can also add to cart from details page
+![Carts](walkthrough/Cart1.png)
+---
+- Payment before checkout
+1. When the user adds and item to cart, and go to the carts page, the checkout button will be greyed out.
+2. The user can only checkout after the payment has been confirmed.
+![Cart](walkthrough/Cart1.png)
+![Payment](walkthrough/payment.png)
+![After_payment](walkthrough/afterpayment.png)
+![alt text](walkthrough/ordered.png)
+---
+3. The user can now print out the order bu clicking on Print recepit
+![Print](walkthrough/ordered.png)
+![Receipt](walkthrough/receipt.png)
 
-![Checkout Process](images/checkout_process.png)
+---
+- Cart History
+1. The user can check the order history/details by clicking on Order History
+![history](walkthrough/history.png)
+---
+2. Here the user can see list of their orders with status and also details of their orders
+![history_view](walkthrough/history1.png)
+---
+3. By Clicking on detais, the user can see the details of their orders
+![history_details](walkthrough/history2.png)
 
-
+---
+## Stock Level
+1. The Admin's product list will show a decrease in the stock when a customer makes an order.
+![Stock_before](walkthrough/stockbef.png)
+---
+2. Customer order.
+![Customer_order](walkthrough/stockorder.png)
+---
+3. Stock after the order has been made
+![Stock_After](walkthrough/stockaft.png)
+---
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
